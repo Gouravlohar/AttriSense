@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 st.sidebar.title("Select One")
-app_selection = st.sidebar.selectbox("Select App", ["Single Prediction", "Prediction Using Test File"])
+app_selection = st.sidebar.selectbox("Select App", ["Predict for One", "Prediction Using CSV File"])
 
 if app_selection == "Single Prediction":
     # Load the pre-trained model
@@ -87,7 +87,7 @@ else:
         return data
     
     # Streamlit app
-    st.title("Predicting Employee Churn Using Machine Learning")
+    st.title("Attrisense")
     
     # Button to upload CSV file
     uploaded_file = st.file_uploader("Choose a CSV file", type=["csv"])
