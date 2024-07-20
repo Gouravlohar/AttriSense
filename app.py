@@ -44,7 +44,8 @@ if app_selection == "Predict for One":
             st.write("An employee may stay with the organization.")
     
     # Streamlit app
-    st.title("Predicting Employee Churn Using Machine Learning")
+    st.title("Attrisense")
+    st.write("This app predicts whether an employee will leave the organization or not")
     
     # Employee data input fields
     
