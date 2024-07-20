@@ -6,7 +6,7 @@ import pickle
 st.sidebar.title("Select One")
 app_selection = st.sidebar.selectbox("Select App", ["Predict for One", "Prediction Using CSV File"])
 
-if app_selection == "Single Prediction":
+if app_selection == "Predict for One":
     # Load the pre-trained model
             
     with open('pipeline.pkl','rb') as f:
